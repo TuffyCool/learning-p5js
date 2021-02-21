@@ -10,6 +10,7 @@ function setup() {
 	x = 200;
 	y = 200;
 	step = 2;
+
 }
 
 function draw() {
