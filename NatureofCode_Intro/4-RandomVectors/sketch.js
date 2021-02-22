@@ -1,10 +1,14 @@
 function setup() {
 	createCanvas(400, 400);
-	walker = new walker(200, 200);
 }
 
 function draw() {
 	background(0);
-	walker.update();
-	walker.show();
+	translate(width / 2, height / 2);
+
+	let v = createVector(100, 0);
+
+	strokeWeight(4);
+	stroke(255);
+	line(0, 0, v.x, v.y);
 }
